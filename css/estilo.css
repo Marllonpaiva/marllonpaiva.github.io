@@ -170,3 +170,7 @@ img {
 #btn-projects:hover{
     background-color: transparent;
 }
+
+#skills-selection-title {
+    border-top: 1px solid var(--border-color);
+}
