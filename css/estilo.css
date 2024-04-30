@@ -173,4 +173,6 @@ img {
 
 #skills-selection-title {
     border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
