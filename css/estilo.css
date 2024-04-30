@@ -186,6 +186,8 @@ img {
 
 .skills-box ul{
    float: left;
+   display: flexbox;
+   justify-content: space-between;
 }
 
 
