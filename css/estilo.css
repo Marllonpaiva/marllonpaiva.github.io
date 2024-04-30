@@ -53,6 +53,20 @@ ul{
 }
 
 img {
-    width: 80%;
-    
+    width: 80%;   
+}
+
+#bio-container h2 {
+    margin-bottom: 25px;
+}
+
+#bio-container p {
+    margin-bottom: 20px;
+}
+
+#bio-image {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 25px;
 }
