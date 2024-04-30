@@ -186,7 +186,6 @@ img {
 
 .skills-box ul{
    float: left;
-   display: flexbox;
 }
 
 
@@ -200,10 +199,9 @@ img {
 .skills-box li a{
     text-decoration: none;
     font-size: 1.5em;
-    justify-content: space-around;
 }
 
-.skills-box i{
+.skills-box i.devicon-python-plain {
 
     color: #54B689;
 }
