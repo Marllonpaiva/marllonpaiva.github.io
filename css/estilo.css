@@ -88,7 +88,7 @@ img {
 #social-container {
     flex: 1 1 0;
     max-width: 60px;
-    margin: 10px;
+   text-align: center;
 }
 
 #social-container li a {
