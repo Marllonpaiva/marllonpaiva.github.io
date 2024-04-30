@@ -182,26 +182,93 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
+    ;
 }
+
 
 .skills-box ul{
    float: left;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+
 }
 
 
 .skills-box li{
 
     float: left;
-    margin-left: 25px;
+    margin: 20px;
+    
     
 }
 
 .skills-box li a{
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1em;
+    margin: 10px;
+    padding: 30px;
+    color: #fff;
+   
 }
 
 .skills-box i.devicon-github-plain {
 
     color: #54B689;
 }
+
+.skills-box i{
+    font-size: 1.7em;
+    padding: 15px;
+}
+
+.rodape{
+
+    clear: both;
+}
+
+@media(max-width: 450px) {
+
+    #container {
+        flex-direction: column;
+    }
+    #bio-container {
+        min-width: auto;
+        border-right: none;
+        border-bottom: 5px solid var(--bio-border-color);
+
+    }
+    #bio-container h2 {
+        display: none;
+    }
+    #bio-container p {
+        max-width: 60%;
+        margin: 10px auto;
+    }
+
+    #about-container {
+        text-align: center;
+        padding: 30px;
+    }
+    #about-container .description {
+        margin: 10px auto;
+        max-width: 100%;
+        line-height: 26px;
+    }
+
+    #btn-projects {
+        margin: 20px auto;
+    }
+    .skills-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    .skills-box i {
+        font-size: 60px;
+        color: #fff;
+    }
+}
+
+
