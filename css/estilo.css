@@ -96,3 +96,8 @@ img {
     color: var(--main-color);
     font-size: 30px;
 }
+
+#email-container {
+    margin-top: 25px;
+
+}
