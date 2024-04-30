@@ -199,6 +199,6 @@ img {
 .skills-box li a{
     text-decoration: none;
     font-size: 1.5em;
-    cursor: pointer;
+    cursor: all-scroll;
 }
 
