@@ -193,7 +193,7 @@ img {
 
     float: left;
     margin-left: 25px;
-    cursor: all-scroll;
+    cursor: auto;
 }
 
 .skills-box li a{
