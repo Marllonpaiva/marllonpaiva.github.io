@@ -184,6 +184,13 @@ img {
     margin-top: 25px;
 }
 
-.skills-box {
+.skills-box ul{
    float: left;
 }
+
+
+.skills-box li{
+
+    float: left;
+}
+
