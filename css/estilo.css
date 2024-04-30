@@ -90,6 +90,6 @@ img {
     max-width: 60px;
 }
 
-#social-container li a {
+#social-container ul a {
     color: var(--main-color);
 }
