@@ -228,15 +228,16 @@ img {
 }
 
 @media(max-width: 450px) {
-
-    #container {
+    
+    #container{
         flex-direction: column;
     }
+
     #bio-container {
         min-width: auto;
         border-right: none;
         border-bottom: 5px solid var(--bio-border-color);
-
+       width: 425px;
     }
     #bio-container h2 {
         display: none;
